@@ -20,7 +20,7 @@ Get started by **creating a new nodejs project** with `package.json` file.
 To install the stable version:
 
 ```bash npm2yarn
-npm install @whiskeysockets/baileys
+npm install baileys
 ```
 
 To install the edge version:
@@ -34,13 +34,13 @@ npm install github:WhiskeySockets/Baileys
 To import the main function:
 
 ```typescript
-import makeWASocket from "@whiskeysockets/baileys";
+import makeWASocket from "baileys";
 ```
 
 ## Connecting
 
 ```typescript
-import makeWASocket, { DisconnectReason } from "@whiskeysockets/baileys";
+import makeWASocket, { DisconnectReason } from "baileys";
 import { Boom } from "@hapi/boom";
 
 async function connectToWhatsApp() {
